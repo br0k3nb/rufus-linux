@@ -1,0 +1,4 @@
+unix_apply.c and unix_capture.c are the UNIX extraction/capture backends of
+wimlib v1.14.4 (https://wimlib.net, LGPL-3.0-or-later), unmodified. Rufus only
+vendors wimlib's Windows backends (../../src/wimlib/win32_*.c); the Linux port
+builds the rest of the vendored wimlib in place, with these two files instead.

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Rufus
+GenericName=USB Formatting Utility
+Comment=Create bootable USB drives
+Exec=rufus-gui %f
+Icon=drive-removable-media
+Terminal=false
+Categories=System;Utility;
+MimeType=application/x-cd-image;application/x-iso9660-image;application/x-raw-disk-image;

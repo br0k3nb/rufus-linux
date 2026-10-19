@@ -1,0 +1,9 @@
+# Build outputs
+/build/
+/vendor/
+/rufus
+/rufus-gui
+
+# Editor droppings
+*.o
+*.swp
