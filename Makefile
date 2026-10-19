@@ -148,6 +148,7 @@ $(BUILD)/src/%.o: src/%.c $(GENERATED) | $(VENDOR)/.stamp
 	@mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) -c $< -o $@
 
+$(VENDOR)/ms-sys/%.c: $(VENDOR)/.stamp ;
 $(VENDOR)/bled/%.c: $(VENDOR)/.stamp ;
 $(VENDOR)/ezxml/xml.c: $(VENDOR)/.stamp ;
 
